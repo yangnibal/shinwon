@@ -1,0 +1,94 @@
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Medium.woff");
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Regular.woff");
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Light.otf");
+    font-weight: lighter;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Bold.woff");
+    font-weight: bold;
+}
+
+.footer{
+    width: 100vw;
+    height: 153px;
+    background-image: url("../imgs/img/footer-background.svg");
+    display: flex;
+    justify-content: center;
+}
+.footer-sticky{
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    width: 269px;
+    height: 58px;
+    object-fit: contain;
+    margin-top: 29px;
+}
+.footer-text-wrapper{
+    margin-top: 45px;
+}
+.footer-text{
+    height: 20px;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 3px;
+}
+.footer-bottom-wrapper{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-bottom-text{
+    height: 19px;
+    font-family: NotoSansCJKkr;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.footer-bottom-text:nth-child(1){
+    padding-right: 20px;
+}
+.footer-bottom-text:nth-child(2){
+    padding: 0 20px;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.footer-bottom-text:nth-child(3){
+    padding-left: 20px;
+    margin-right: 113px;
+}
+.copyright{
+    height: 19px;
+    font-family: NotoSansCJKkr;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}

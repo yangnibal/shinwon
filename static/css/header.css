@@ -1,0 +1,92 @@
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Medium.woff");
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Regular.woff");
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Light.otf");
+    font-weight: lighter;
+}
+@font-face{
+    font-family: 'NotoSansCJKkr',sans-serif;
+    src: url("../font/NotoSansCJKkr-Bold.woff");
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    font-family: NotoSansCJKkr;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    width: 100vw;
+}
+.header{
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.header-oval{
+    height: 25px;
+    background-color: rgb(13, 13, 75);
+    width: 100%;
+}
+.header-contents{
+    width: 100vw;
+    max-width: 1920px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contents-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.contents-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.content-wrapper{
+    width: 109px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #00284b;
+}
+.content__last{
+    margin-right: 109px;
+}
+.header-logo{
+    width: 234px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 101px;
+}

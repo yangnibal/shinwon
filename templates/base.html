@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+        <link rel="stylesheet" href="{% static 'css/header.css' %}">
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        {% block static %}
+        {% endblock static %}
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="{% static 'imgs/img/header-top.svg' %}" alt="" class="header-oval">
+                <div class="header-contents">
+                    <div class="contents-left">
+                        <div class="content-wrapper">
+                            <a href="" class="content">재단안내</a>
+                        </div>
+                        <div class="content-wrapper">
+                            <a href="" class="content">검사안내</a>
+                        </div>
+                        <div class="content-wrapper">
+                            <a href="" class="content">검사센터</a>
+                        </div>
+                        <div class="content-wrapper content__last">
+                            <a href="" class="content">고객서비스</a>
+                        </div>
+                    </div>
+                    <div class="contents-right">
+                        <img src="{% static 'imgs/img/logo.png' %}" alt="" class="header-logo">
+                    </div>
+                </div>
+            </div>
+            {% block content %}
+            {% endblock content %}
+            <div class="footer">
+                <div class="footer-sticky">
+                    <div class="footer-text-wrapper">
+                        <div class="footer-text">경기도 광명시 소하동 소하로 109번길 13-8</div>
+                        <div class="footer-text">대표전화 : 1899-0510 학술지원 : 02-801-5170/2 전산지원 : 02-801-5150/2</div>
+                        <div class="footer-bottom-wrapper">
+                            <div class="footer-bottom-text">개인정보취급방침</div>
+                            <div class="footer-bottom-text">위치안내</div>
+                            <div class="footer-bottom-text">사이트맵</div>
+                            <div class="copyright">COPYRIGHT 2020 BY Shinwon medical foundation ALL RIGHT RESERVED</div>
+                        </div>
+                    </div>
+                    <img src="{% static 'imgs/img/logo.png' %}" alt="" class="footer-logo">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
